@@ -1,5 +1,5 @@
 body{
-    font-family: Arial, Veranda;
+    font-family: Arial, Verdana;
     background-color: #000000; 
     color: #ffffff;  
     margin: 20px 20px 0; 
@@ -45,16 +45,20 @@ div{
     background-color: #ff0000; 
     text-align: right; 
     margin-left: 50px; 
-    border-bottom: 2px; 
-    border-left: 5px; 
+    border-bottom: 2px solid; 
+    border-left: 5px solid;
+    border-right: none; 
+    border-top: none;
 }
 
 .blue{
     background-color: #0000ff; 
     text-align: left; 
     margin-right: 50px; 
-    border-right: 5px; 
-    border-top: 2px; 
+    border-right: 5px solid; 
+    border-top: 2px solid;  
+    border-left: none; 
+    border-bottom: none;
 }  
 
 .blue h2, .blue p{
@@ -65,8 +69,10 @@ div{
     background-color: #ffff00; 
     text-align: right;
     margin-left: 50px; 
-    border-bottom: 2px; 
-    border-left: 5px;
+    border-bottom: 2px solid; 
+    border-left: 5px solid; 
+    border-right: none;
+    border-top: none; 
 } 
 .yellow p{
     color: #707070; 
@@ -76,8 +82,10 @@ div{
     background-color: #008500; 
     text-align: left; 
     margin-right: 50px; 
-    border-right: 5px; 
-    border-top: 2px; 
+    border-right: 5px solid; 
+    border-top: 2px solid;  
+    border-bottom: none; 
+    border-left: none;
 } 
 
 footer{
@@ -89,4 +97,10 @@ footer{
         #000000 100% 
     );  
     border: 5px solid #ffffff; 
+}
+
+footer p{
+    font-size: 20px;
+    text-align: right; 
+    padding: 15px 15px 15px 0;  
 }
